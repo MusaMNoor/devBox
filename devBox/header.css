@@ -1,0 +1,53 @@
+@font-face {
+    font-family: mainFont;
+    src: url('/devBox/Weight.ttf');
+}
+
+.navBox {
+    width: 95%;
+    height: 75px;
+    background: rgba(11, 17, 17, 0.4);
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius:45px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    
+}
+
+.logo {
+    width: 25%;
+    height: auto;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.headerList {
+    margin-top: 4.7%;
+    margin-left: 40%;
+    font-family: mainFont;
+    display: inline-flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+li {
+    align-items: center;
+    margin-left: 10%;
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+}
+
+.homePointer, .loginPointer, .registerPointer {
+    margin-left: 10%;
+    display: inline-block;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+
+}
+

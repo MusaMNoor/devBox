@@ -1,0 +1,63 @@
+@font-face {
+    font-family: mainFont;
+    src: url('/devBox/Weight.ttf');
+}
+
+body {
+    font-weight: 20;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background: linear-gradient(to bottom right,rgba(41, 95, 145, 1) 0%, rgba(0, 18, 48, 1) 100%);
+    align-items: center;
+}
+
+
+.whoWeAreTitle {
+    margin-left: 5%;
+    padding: 0px;
+    font-family: mainFont;
+    color: white;
+    font-weight: 1;
+    margin-top: 10%;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.whoWeArePara {
+    margin-left: 5%;
+    padding: 0px;
+    font-family: mainFont;
+    color: white;
+    font-weight: 1;
+    font-size: 25px;
+}
+
+
+.howWeDoItTitle {
+    float: right;
+    margin-right: 5%;
+    margin-left: 65%;
+    padding: 0px;
+    font-family: mainFont;
+    color: white;
+    font-weight: 1;
+    margin-top: 10%;
+    font-size: 60px;
+    margin-bottom: 0px;
+    display: inline-flex;
+    text-align: right;
+}
+
+.howWeDoItPara {
+    float: right;
+    margin-right: 5%;
+    padding: 0px;
+    font-family: mainFont;
+    color: white;
+    font-weight: 1;
+    font-size: 25px;
+    display: inline-flex;
+}
+
+
