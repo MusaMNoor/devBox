@@ -5,16 +5,19 @@
 
 .header {
     display: flex;
-    align-self: center;
+    align-content: center;
     margin-top: 3% ;
+    justify-content: center;
+    
 
 
 }
 
 .navBox {
+
     display: flex;
-    width: 90vw;
-    height: 75px;
+    width: 85vw;
+    height: 100px;
     background: rgba(11, 17, 17, 0.4);
     border-radius:45px;
     padding-right: 5%;
@@ -48,6 +51,7 @@
     white-space: nowrap;
     color: white;
     text-decoration: none;
+    padding-left: 15px;
     
     
 }
