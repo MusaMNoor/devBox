@@ -3,51 +3,52 @@
     src: url('/devBox/Weight.ttf');
 }
 
+.header {
+    display: flex;
+    align-self: center;
+    margin-top: 3% ;
+
+
+}
+
 .navBox {
-    width: 95%;
+    display: flex;
+    width: 90vw;
     height: 75px;
     background: rgba(11, 17, 17, 0.4);
-    margin-left: auto;
-    margin-top: 10px;
     border-radius:45px;
+    padding-right: 5%;
     align-items: center;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    display: flex;
+    justify-content: space-between;
+
     
 }
 
 .logo {
-    width: 25%;
+    display: inline-flex;
+    width: 100px;
     height: auto;
-    padding-top: 10px;
-    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    float: left;
+
 }
 
 .headerList {
-    margin-top: 4.7%;
-    margin-left: 40%;
-    font-family: mainFont;
+    padding: 0;
+    margin:0;
     display: inline-flex;
-    align-items: center;
+    font-family: mainFont;
     font-size: 25px;
-
-}
-
-li {
-    align-items: center;
-    margin-left: 10%;
-    display: inline-block;
-    white-space: nowrap;
-    color: white;
+    font-family: 10%;
+    float: right;
 }
 
 .homePointer, .loginPointer, .registerPointer {
-    margin-left: 10%;
-    display: inline-block;
     white-space: nowrap;
     color: white;
     text-decoration: none;
-
+    
+    
 }
 

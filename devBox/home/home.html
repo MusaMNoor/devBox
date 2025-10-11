@@ -4,38 +4,51 @@
         <title>Home</title>
         <link rel="stylesheet" href="/devBox/home/home.css">
         <link rel="stylesheet" href="/devBox/header.css">
+        <link rel="stylesheet" href="/devBox/fonts.css">
     </head>
     <body>
         <header class="header">
             <div class="navBox">
-                <img src="/devBox/logo.svg" class="logo">
-                <ul class="headerList">
-                    <li>
-                        <a href="/devBox/home/home.html" class="homePointer">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/devBox/login/login.html" class="loginPointer">
-                            Sign In
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/devBox/register/register.html" class="registerPointer">
-                            Sign Up
-                        </a>
-                    </li>
-                </ul>
+                <img src="/devBox/logo.svg" class="logo">                
+                <nav class="headerList">
+                    <a href="/devBox/home/home.html" class="homePointer">
+                        Home
+                    </a>
+                    <a href="/devBox/login/login.html" class="loginPointer">
+                       Sign In
+                    </a>
+                    <a href="/devBox/register/register.html" class="registerPointer">
+                        Sign Up
+                    </a>
+                </nav>
             </div>
         </header>
-        <div class="intro">
-            <h3 class="whoWeAreTitle">Who Are We?</h3>
-            <p class="whoWeArePara">We are a company established in 2025, started by a <br>16 year old, who aimed to make showing off deveoloper<br> portfolios, ten times easier
-            </p>
-
-            <h3 class="howWeDoItTitle">How we do it</h3>
-            <p class="howWeDoItPara">We create templates for you to pick and choose <br> from, which you can edit, or change completely - <br> totally to your liking! Or you could even code your<br>very own.
-            </p>
+        <div class="leftSide">
+            <div class="intro">
+                <h3 class="whoWeAreTitle">Who Are We?</h3>
+                <p class="whoWeArePara">We are a company established in 2025, started by a <br>16 year old, who aimed to make showing off deveoloper<br> portfolios, ten times easier</p>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="howWeDoIt">
+                <h3 class="howWeDoItTitle">How we do it</h3>
+                <p class="howWeDoItPara">We create templates for you to pick and choose <br> from, which you can edit, or change completely - <br> totally to your liking! Or you could even code<br>your very own.</p>
+            </div>
+            
+        </div>
+        
+        <div class="center">
+            <svg class="svgCircle">
+                <circle r="2500" cx="50%" cy="2500" fill="rgb(0,28,56, 0.8)"></circle>
+            </svg>
+            <p class="number1Title">The Number One</p>
+            <p class="number1Sub">platform for</p>
+            <ul class = number1List>
+                <li class="number1ListItems">CREATING</li>
+                <li class="number1ListItems">PUBLISHING</li>
+                <li class="number1ListItems">SELLING</li>
+            </ul>
+            <p class="number1End">All in one place</p>
         </div>
     </body>
 </html>

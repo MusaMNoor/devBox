@@ -1,0 +1,9 @@
+@font-face {
+    font-family: mainFont;
+    src: url('/devBox/Weight.ttf');
+}
+
+@font-face {
+    font-family: condensedFont;
+    src: url('/devBox/Deutschlander-O5we.ttf');
+}
