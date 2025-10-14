@@ -177,3 +177,17 @@ body {
     font-weight: 1;
     font-size: 35px;
 }
+
+.startButton {
+    align-self: center;
+    text-decoration: none;
+    color: white;
+    font-family: mainFont;
+    font-weight: 1;
+    font-size: 2vw;
+    background-color: rgb(191, 243, 243, 0.3);
+    width: auto;
+    border-radius: 100px;
+    padding: 1%;
+    border: solid;
+}
