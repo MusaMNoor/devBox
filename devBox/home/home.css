@@ -36,32 +36,31 @@ body {
 
 .whoWeAreTitle {
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 0px;
     font-family: mainFont;
     color: white;
     font-weight: 1;
     margin-top: 10%;
-    font-size: 60px;
+    font-size: 100px;
     margin-bottom: 0px;
 }
 
 .whoWeArePara {
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 10%;
     padding: 0px;
     font-family: mainFont;
     color: white;
     font-weight: 1;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .howWeDoIt {
     display: block;
-    margin-left: auto;
     position: relative;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     text-align: right;
     align-content: right;
 }
@@ -72,8 +71,8 @@ body {
     font-family: mainFont;
     color: white;
     font-weight: 1;
-    margin-top: 10%;
-    font-size: 60px;
+    margin-top: 5%;
+    font-size: 100px;
     margin-bottom: 0px;    
 }
 
@@ -83,8 +82,8 @@ body {
     font-family: mainFont;
     color: white;
     font-weight: 1;
-    font-size: 25px;
-    margin-bottom: 10%;
+    font-size: 30px;
+    margin-bottom: 5%;
 }
 
 
@@ -96,6 +95,7 @@ body {
     font-weight: 1;
     font-size: 60px;
     margin: 0;
+    
 
 }
 
@@ -110,11 +110,13 @@ body {
 }
 
 .number1List {
+    margin-top: 10%;
     padding: 0; /* This is done to remove any
     default padding to the <ul>,
     which allows 'align-self: center;' and
     'text-align: center;' to work without being
     offset by natural padding */
+
 }
 
 .number1ListItems {
@@ -124,8 +126,7 @@ body {
     line-height: 70%;
     font-family: condensedFont;
     color: white;
-    font-size: 250px;
-    
+    font-size: 250px;    
     
 
 }
@@ -138,12 +139,41 @@ body {
 
 }
 
+
 .svgCircle {
     width: 100%;
-    height: 200%;
+    height: 300%;
+    margin-top: 15%;
     align-self: center;
-    margin-top: 5%;
     margin-bottom: 10%;
     position: absolute;
     z-index: -1;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.optionsList{
+    display:inline-flex;
+    color: white;
+    font-family: mainFont;
+    font-weight: 1;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.build, .publish, .access {
+    display: inline;
+    padding: 40px;
+    text-wrap: pretty;
+}
+
+.optionsTitles {
+    font-weight: 1;
+    font-size: 35px;
 }
